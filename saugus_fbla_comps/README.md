@@ -11,4 +11,7 @@ An app made by fellow members of Saugus High School to help prepare and ensure c
 - AI Chatbot (w/ embedded competencies & rubrics)
 - Gold Coast Competition Repository
 - FBLA (National Office) Resource Page
+- Note Taking
+- Progress Plan
+- Saugus FBLA (Slack Server)
 *TBD*
