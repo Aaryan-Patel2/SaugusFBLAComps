@@ -14,4 +14,4 @@ An app made by fellow members of Saugus High School to help prepare and ensure c
 - Note Taking
 - Progress Plan
 - Saugus FBLA (Slack Server)
-*TBD*
+- *TBD*
