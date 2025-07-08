@@ -43,3 +43,149 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Windows related
+**/windows/**/flutter/generated_plugin_registrant.cc
+**/windows/**/flutter/generated_plugin_registrant.h
+**/windows/**/flutter/generated_plugins.cmake
+
+# macOS related
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux related
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+
+# Coverage
+coverage/
+
+# Firebase related - IMPORTANT: Protect sensitive configuration
+**/google-services.json
+**/GoogleService-Info.plist
+firebase-debug.log
+.firebase/
+**/firebase_options.dart
+firebase.json
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# API Keys and sensitive configuration
+config/
+secrets/
+**/secrets.json
+**/config.json
+**/api_keys.json
+**/credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# IDE specific files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+*.code-workspace
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+out/
+
+# Test coverage
+coverage/
+test/coverage/
+
+# Local development
+local.properties
+.flutter-plugins-dependencies
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+# Platform specific build files
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Keystore files (VERY IMPORTANT - these contain signing keys)
+*.jks
+*.keystore
+key.properties
+
+# ProGuard files
+**/android/app/proguard-rules.pro
+
+# Crashlytics
+**/ios/crashlytics-build-phase
